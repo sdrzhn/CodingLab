@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+      
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="fonts.css">
+    <title>FoodStore</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+          <link rel="preconnect" href="https://fonts.gstatic.com">
+          <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light"> 
+              <div class="navbar">
+                  
+                  <a class="navbar-brand" href="#"> 
+                      <img src="soup-plate.png" alt"">
+                  </a>
+                  
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                  </button>
+                  
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item dropdown">
+                                  <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Menu<span class="caret"></span></button>
+                                  
+                                  <ul class="dropdown-menu">
+                                      <li><a href="#"><img src="soup-plate.png"> Bakery</a></li>
+                                      <li><a href="#"><span><img src="vegan-food.png"></span> Coffee</a></li>
+                                      <li><a href="#"><span><img src="https://img.icons8.com/ios-filled/25/000000/orange-juice.png"/></span> Juices</a></li>
+                                      <li><a href="#"><span><img src="https://img.icons8.com/metro/26/000000/tea.png"/></span> Sun Tea</a></li>
+                                      <li><a href="#"><span><img src="https://img.icons8.com/pastel-glyph/25/000000/cream-coconut-cake.png"/></span> Desserts</a></li>
+                                      <li><a href="#"><span><img src="https://img.icons8.com/pastel-glyph/25/000000/hamper.png"/></span> Buckets</a></li>
+                                      <li><a href="#"><span><img src="https://img.icons8.com/carbon-copy/25/000000/paella.png"/></span> Snacks</a></li>
+                                      <li><a href="#"><span><img src="https://img.icons8.com/pastel-glyph/25/000000/beefburger.png"/></span> Burgers</a></li>
+                                      <li><a href="#"><span><img src="https://img.icons8.com/pastel-glyph/25/000000/dressing--v2.png"/></span> Sauces</a></li>
+                                      <li><a href="#"><span><img src="https://img.icons8.com/android/25/000000/pizza.png"/></span> Pizza</a></li>
+                                      <li><a href="#"><span><img src="https://img.icons8.com/metro/26/000000/sushi.png"/></span> Sushi</a></li>
+                                  </ul>
+                          </li>
+                           <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="foodstore.html">Home</a>
+        </li>
+                          <li class="nav-item">
+                              <a class="nav-link active" aria-current="page" href="delivery.html">Delivery</a>
+                          </li>
+                          
+                          <li class="nav-item">
+                              <a class="nav-link active" aria-current="page" href="Payment.html">Payment</a>
+                          </li>
+                          
+                          <li class="nav-item">
+                              <a class="nav-link active" aria-current="page" href="page.html">Order</a>
+                          </li>
+                      </ul>
+                      
+                      <div class="menu-right justify-content-between d-flex">
+                          <a href="tel:+77479891705" class="menu-contact"><i class="fa fa-phone" aria-hidden="true"></i><span>+7 (747) 989-17-05</span></a>
+                          <button class="profile">
+                              <i class="fa fa-user" aria-hidden="true"></i>
+                          </button>
+                          <a href="" class="cart" ><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                      </div>
+                  </div>
+              </div >
+          </nav>
+        </header>
+        
+        
+        
+        <section class="cart-product-order">
+            <div class="container">
+                
+                
+                
+                <div class="line-tab line-tab-1 active">
+                    <form action="">
+                <div class="cart-wrapper">
+                    
+                    <div class="cart-info">
+                        <h3><b>Personal Information</b></h3>
+                        <div class="photo-input">
+                            <div class="photo"></div>
+                            <input type="file" id="file">
+                            <label for="file">Choose a file (Click me)</label>
+                        </div>
+                        <div class="form-line">
+                            <div class="group-block">
+                                <div class="group-line g-name">
+                                    <div class="label">First Name</div>
+                                    <input type="text" placeholder="Enter your first name" name="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-line">
+                            <div class="group-block">
+                                <div class="group-line g-surname">
+                                    <div class="label">Second Name</div>
+                                    <input type="text" placeholder="Enter your second name" name="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-line">
+                            <div class="label">E-mail</div>
+                            <input type="text" placeholder="Enter e-mail address" name="">
+                        </div>
+                    </div>
+                    
+                    <div class="cart-sidebar">
+                            <h3><b>Contact Information</b></h3>
+                            <div class="form-line">
+                                <div class="group-block">
+                                    <div class="group-line">
+                                        <div class="label">Telephone</div>
+                                        <input type="text" placeholder="+7___-___-____" name="">
+                                    </div>
+                                </div>
+                            </div>
+                            <h3><b>Change Password</b></h3>
+                            <div class="form-line">
+                                <div class="group-block">
+                                    <div class="group-line">
+                                        <div class="label">Old Password</div>
+                                        <input type="text" placeholder="Old Password" name="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-line">
+                                <div class="group-block">
+                                    <div class="group-line">
+                                        <div class="label">New Password</div>
+                                        <input type="text" placeholder="New Password" name="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-line">
+                                <div class="group-block">
+                                    <div class="group-line">
+                                        <div class="label">Verification</div>
+                                        <input type="text" placeholder="Enter new password" name="">
+                                    </div>
+                                </div>
+                            </div>
+                            <button onclick="myFunction()" type="button" class="btn btn-default">Submit</button>
+                        <script>
+function myFunction() {
+  alert("Purchase done!");
+}
+</script>
+                        </div>
+                    </div>
+                    </form>
+                </div>
+                
+                
+                
+                
+            </div>
+      </section>
+        
+        
+        
+        <section class="home-delivery">
+          <div class="delivery">
+              <div class="block">
+                  <h4 class="delivery-title">Free shipping in Nur-Sultan <br>and out of city from 20$!</h4>
+                  <a href="delivery.html"><button type="button" class="btn btn-outline-dark">Arrange</button></a>
+              </div>
+          </div>
+      </section>
+        
+        
+        
+        
+        
+        <footer>
+          <div class="foot">
+              <div class="footer-wrapper">
+                  <div class="footer-left">
+                      <div class="phones">
+                          <div class="phone-item">
+                              <span>Free call in the RK</span>
+                              <a href="tel:+7479891705">+7 (747) 989-17-05</a>
+                          </div>
+                          <div class="phone-item">
+                              <span>To accept orders</span>
+                              <a href="tel:+747989170і">+7 (747) 989-17-03</a>
+                          </div>
+                      </div>
+                      <div class="work-time">Working hours on weekdays from 9:00 to 18:00</div>
+                      <div class="work-email">
+                          <a href="mailto:info@.ru">Email: info@.ru</a>
+                          <a href="support.html" class="site-help">Support</a>
+                      </div>
+                  </div>
+                  <div class="footer-c enter">
+                      <div class="social">
+                          <a href="">We are in Vkontakte ></a>
+                          <a href="">We are in Instagram ></a>
+                      </div>
+                  </div>             
+                  <div class="footer-right">
+                      <div class="person">
+                          <a href=""><span>Login/Registration</span></a>
+                      </div>
+                  </div>
+              </div>
+              <div class="footer-bottom">
+                  <span>©2021. FoodStore</span>
+                  <a href="">Terms and Conditions of the agreement</a>
+                  <a href="">Policy and Privacy</a>
+              </div> 
+          </div>
+      </footer>
+        
+        
+      </div>
+    </body>
+</html>
